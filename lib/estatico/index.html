@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      UI - VPS
+    </title>
+    <link rel='stylesheet' href='normalize.css' type='text/css' media='all'/>
+    <link rel='stylesheet' href='ui.css' type='text/css' media='all'/>
+    <link href='http://fonts.googleapis.com/css?family=Rosario:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<script>
+	var scripts = [':8081/socket.io/socket.io.js',':8080/script.js'];
+	for(x in scripts)
+		{
+		var element = document.createElement('script');
+		element.src = 'http://'+document.domain+scripts[x];
+		document.head.appendChild(element);
+		}
+	</script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Servidor VPS de Node.js en el puerto http
+      </h1>
+    </header>
+    <section>
+    <!--
+	<article>
+        <div id="top">
+        </div>
+        <header>
+          <h2>
+            a.node-js.com.ar
+          </h2>
+        </header>
+        <p>
+          <b>
+            Descripcion: 
+          </b>
+          Sitio de Puebas
+        </p>
+        <p>
+          <b>
+            Usuario: 
+          </b>
+          Juan
+        </p>
+        <p>
+          <b>
+            Puerto Real: 
+          </b>
+          8000
+        </p>
+        <p>
+          <b>
+            Ram Usada: 
+          </b>
+          ~41Mb
+        </p>
+        <p>
+          <b>
+            Dominios: 
+          </b>
+          a.node-js.com.ar , b.node-js.com.ar
+        </p>
+        <p>
+          <div class="boton">
+            Terminar el proceso
+        </div>
+      </p>
+    </article>
+	-->
+  </section>
+  <footer>
+    <p>
+      Copyright 2009 Your name
+    </p>
+  </footer>
+</body>
+</html>
