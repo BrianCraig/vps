@@ -51,13 +51,17 @@ border: 1px solid #ADADAD ;
 color: #fee ;
 }
 
-div#top {
+.top {
     position: absolute;
     width: 301px;
     height: 5px;
     margin-left: -8px;
     margin-top: -10px;
     border-radius: 20px 20px 0 0;
+    background: #FF4A4A;
+	}
+	
+.top.activo {
     background: #2DFFAB;
 	}
 	
@@ -67,4 +71,12 @@ clear:both
 section{
 width: 975px;
 margin: 0 auto;
+}
+
+#crear{
+clear:both;
+background:#444;
+}
+#carpeta,#hosts{
+width:98%
 }
