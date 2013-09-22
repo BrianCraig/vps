@@ -36,6 +36,14 @@ border-radius: 10px;
 article > p{
 margin: 10px 0px;
 }
+article pre{
+
+width: 279px;
+border: 3px solid #000;
+height: 93px;
+overflow-y: scroll;
+background: #FFF;
+}
 
 .boton{
 margin: 0;
@@ -77,6 +85,33 @@ margin: 0 auto;
 clear:both;
 background:#444;
 }
+#crear p{
+text-align:center;
+padding:10px;
+margin: 0;
+}
+#crear input[type="text"]{
+width:100%;
+border:0;
+}
+#crear button{
+width:30%;
+border:1px solid #000;
+}
 #carpeta,#hosts{
 width:98%
+}
+.quitar{
+position: absolute;
+margin: 0;
+padding: 1px 4px 3px;
+background: rgba(192, 0, 0, 1);
+margin-left: 242px;
+border-radius: 4px;
+color: #fff;
+cursor: pointer;
+opacity: 0.55;
+}
+.quitar:hover{
+opacity:1;
 }
